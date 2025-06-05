@@ -10,9 +10,9 @@ TimeSync leverages advanced **machine learning algorithms** to analyze historica
 ### 📎 **Official Links**
 
 - **Website**: [YourWebsiteLink](https://timelytics.app)
-- **GitHub**: [TimeSync GitHub Repository](https://github.com/Timelytics/Timelytics)
-- **Twitter**: [@TimeSync_Tech](https://twitter.com/Timelytics)
-- **Chrome**: [@TimeSync_Tech](https://chromewebstore.google.com/detail/timelytics/bhncojenjfkjhaaldbfgmlpiammgfeil)
+- **GitHub**: [Timelytics GitHub Repository](https://github.com/Timelytics/Timelytics)
+- **Twitter**: [@Timelytics](https://twitter.com/Timelytics)
+- **Chrome**: [@Timelytics](https://chromewebstore.google.com/detail/timelytics/bhncojenjfkjhaaldbfgmlpiammgfeil)
 ---
 
 ## 🕰️ Key Features
