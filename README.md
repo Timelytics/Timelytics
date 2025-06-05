@@ -7,6 +7,13 @@
 TimeSync leverages advanced **machine learning algorithms** to analyze historical market data and identify optimal trading windows. It provides **real-time adjustments** based on time, enabling users to act swiftly during key market moments.
 
 ---
+### 📎 **Official Links**
+
+- **Website**: [YourWebsiteLink](https://timelytics.app)
+- **GitHub**: [TimeSync GitHub Repository](https://github.com/Timelytics/Timelytics)
+- **Twitter**: [@TimeSync_Tech](https://twitter.com/Timelytics)
+- **Chrome**: [@TimeSync_Tech](https://chromewebstore.google.com/detail/timelytics/bhncojenjfkjhaaldbfgmlpiammgfeil)
+---
 
 ## 🕰️ Key Features
 
@@ -153,13 +160,6 @@ function entryExitClock(deltaMinutes) {
 ```
 > deltaMinutes: Time difference from the peak moment (in minutes)
 
----
-
-### 📎 **Official Links**
-
-- **Website**: [YourWebsiteLink](https://www.example.com)
-- **GitHub**: [TimeSync GitHub Repository](https://github.com/yourusername/timesync)
-- **Twitter**: [@TimeSync_Tech](https://twitter.com/TimeSync_Tech)
 
 ---
 ## **💡 Contributing:**
