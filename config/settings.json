@@ -1,0 +1,6 @@
+{
+    "appName": "Timelytics",
+    "version": "1.0.0",
+    "alertThreshold": 75,
+    "syncInterval": 10
+}
