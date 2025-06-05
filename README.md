@@ -8,38 +8,61 @@ TimeSync leverages advanced **machine learning algorithms** to analyze historica
 
 ---
 
-## **🛠️ Features:**
+## 🕰️ Key Features
 
-### **✅ Current Features:**
+TimeSync is packed with features that give you the upper hand in the fast-paced crypto market. Whether you're a day trader or a long-term strategist, TimeSync helps you stay in rhythm with market timing.
 
-- **🤖 AI-Powered Timing Predictions**  
-    Predicts optimal **buy/sell windows** based on historical market patterns.  
-    Powered by machine learning, ensuring predictions are based on the **latest data**.
+### 🤖 AI-Powered Timing Predictions  
+Predict the best moments to buy or sell using AI-driven analysis of historical market behavior.  
+These predictions adapt in real time based on evolving trends and volume patterns — so you're never a step behind.
 
-- **🧭 TimeSync Compass**  
-    A visual tool that helps users track **time-based market patterns** and adjust their strategies accordingly.
+### 🧭 TimeSync Compass  
+Visualize the flow of market momentum with our time-based compass.  
+Spot repeating cycles, entry signals, and optimal hours for action — all based on dynamic price tracking.
 
-- **⚡ Real-Time Market Adjustments**  
-    Provides **real-time updates** with customizable time filters for more accurate, timely trading decisions.
+### ⚡ Real-Time Market Adjustments  
+Stay updated with immediate market shifts, using adjustable time filters.  
+Perfect for scalping, swing trading, or macro views — TimeSync adapts to your rhythm.
 
-- **🌍 Multi-Timezone Support**  
-    Users can view and track **optimal trading windows** across different time zones, ensuring **global trading efficiency**.
+### 🌍 Multi-Timezone Support  
+Trade from anywhere, anytime.  
+TimeSync aligns trading signals across global time zones, making it easy to coordinate strategy no matter where you are.
 
 ---
+## 🗺️ Roadmap – The Timing Path
 
-### **🚧 Future Features (Planned):**
+TimeSync evolves across phases — from core timing insights to adaptive intelligence that syncs with your trading behavior.
 
-- **📅 Event Calendar Integration**  
-    Integrates with external **economic calendars**, providing notifications about upcoming **market-moving events**.
+### ✅ Phase 1: MVP (Live)  
+**Status:** Released Q3 2025  
+The timing engine is active — providing foundational insights for precision-based trading.
 
-- **⚠️ Real-Time Anomaly Detection**  
-    Identifies unusual market activity in **real-time**, alerting users to potential disruptions or opportunities.
+- 🧠 AI-Powered Timing Predictions  
+- 🧭 TimeSync Compass *(Peak Window + Momentum)*  
+- ⏱️ Real-Time Market Adjustments  
+- 🌍 Multi-Timezone Adaptation  
+- 🔐 Discord-Gated **Sync Key**  
+- 💠 $TMLX Token Role Unlocking  
 
-- **🔓 Optimal Trading Windows Generator**  
-    A **personalized feature** that generates trading windows tailored to the user’s strategy and preferences.
+### 🟣 Phase 2: Signal Enhancement (In Progress)  
+**ETA:** Q4 2025  
+Shifting from reactive to adaptive — smarter signals and personalized flow.
 
-- **🔗 Blockchain Time Optimization**  
-    Synchronizes **smart contract time stamps** to enhance blockchain-based transaction accuracy.
+- ⚡ Real-Time Anomaly Detection  
+- 📅 Optimal Trading Window Generator *(AI-personalized)*  
+- ⛓️ Blockchain Time Optimization Engine  
+- 🧩 Role-Based Feature Access  
+- 🎛️ Custom Timing Preferences  
+
+### 🔴 Phase 3: Predictive Intelligence (Planned)  
+**ETA:** Q4 2025 – Q1 2026  
+Forecasting engine comes online — your trades sync with market rhythm.
+
+- 🧠 Deep Pattern Forecasting Layer  
+- 📈 Momentum Heatmaps  
+- 🛰️ Cross-Market Cycle Detection  
+- 🧬 Timing Memory Playback  
+- 🧭 Precision Entry Sync Engine  
 
 ---
 
@@ -70,14 +93,20 @@ function optimalEntry(currentVol, hourlyTrend, volatility) {
 
 2. ⏳ Timing Grade (A–F)
 Gives a letter grade reflecting the health of the current market condition:
-```javascript
-function timingGrade(trendScore, entrySignal) {
-  if (trendScore > 80 && entrySignal === "Entry Recommended") return "A";
-  if (trendScore > 60) return "B";
-  if (trendScore > 40) return "C";
-  if (trendScore > 20) return "D";
-  return "F";
-}
+```python
+def timing_grade(trend_score, entry_signal):
+    """
+    Returns a grade (A–F) based on trend strength and entry recommendation.
+    """
+    if trend_score > 80 and entry_signal == "Entry Recommended":
+        return "A"
+    if trend_score > 60:
+        return "B"
+    if trend_score > 40:
+        return "C"
+    if trend_score > 20:
+        return "D"
+    return "F"
 ```
 > trendScore: A score based on market trends
 > entrySignal: Signal indicating the entry recommendation
@@ -95,10 +124,17 @@ function cycleMomentum(minutesSincePeak) {
 4. 📊 Session Heat Index
 Simulates the "heat" of the current trading session:
 
-```javascript
-function sessionHeatIndex(vol, wallets, txCount) {
-  return Math.min(Math.floor((vol * 0.0005) + wallets * 0.5 + txCount * 0.2), 100);
-}
+```python
+def session_heat_index(vol, wallets, tx_count):
+    """
+    Calculates the heat index for a token session.
+
+    Formula:
+    (volume * 0.0005) + (wallets * 0.5) + (transactions * 0.2)
+    Max score capped at 100
+    """
+    score = (vol * 0.0005) + (wallets * 0.5) + (tx_count * 0.2)
+    return min(int(score), 100)
 ```
 > vol: Trading volume in the session
 > wallets: Number of active wallets
